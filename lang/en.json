@@ -1,5 +1,14 @@
 {
-  "title": "Multilang Site",
-  "welcome": "Welcome",
-  "description": "This is a simple static site."
+  "time": "Opening Hour",
+  "days": "Mon - Fri, 8:00 - 19:00",
+  "telephone": "Call us",
+  "email": "Email Us",
+  "main": "HOME",
+  "about": "ABOUT US",
+  "team": "TEAM",
+  "project": "PROJECTS",
+  "contact1": "CONTACTS",
+  "contact2": "Contacts",
+  "home": "Home",
+  "contact3": "Contact Us"
 }
