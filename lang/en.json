@@ -10,5 +10,58 @@
   "contact1": "CONTACTS",
   "contact2": "Contacts",
   "home": "Home",
-  "contact3": "Contact Us"
+  "contact3": "Contact Us",
+
+  "projects": "Our projects",
+  "implemented": "Implemented projects",
+  "title1": "Dnipro Innovation Terminal",
+  "text1": "Equinox automated small parcel sorting system at the Dnipro Innovation Terminal",
+  "title2": "Kyiv Innovation Terminal",
+  "text2": "Equinox automated small parcel sorting system at the Kyiv Innovation Terminal",
+  "title3": "Odessa Innovation Terminal",
+  "text3": "Equinox automated small parcel sorting system at the Odessa Innovation Terminal",
+  "title4": "Kyiv Innovation Terminal East",
+  "text4": "Moving telescopic conveyors of Bermak company at Kyiv Innovation Terminal East",
+
+  "current": "Сurrent projects",
+  "title-1": "Kyiv Innovation Terminal East",
+  "text-1": "Equinox automated small parcel sorting system at Kyiv Innovation Terminal East",
+
+  "h1-1": "A team to",
+  "h1-2": "Implement your project",
+
+  "1": "Expert Worker",
+  "2": "Наші працівники мають великий досвід та високу кваліфікацію у монтажі та введеені в експлуатацію",
+  "3": "Quality Work",
+  "4": "We guarantee high quality work at all stages of cooperation"
+
+  "about-pretitle": "Welcome to White Stars",
+  "about-title": "About our company",
+  "about-aftertitle": "We are in the White Business Club",
+  "about-text-1": "The company is officially recognized as a good taxpayer and is included in the White Business Club of Ukraine - a community of companies that conduct their activities transparently, honestly, and in full compliance with current legislation.",
+  "about-text-2": "Our company was founded in 2018 and has extensive experience in the field of installation. We specialize in the installation of various types of equipment, including automated equipment for sorting luggage, parcels, and other similar items.",
+  "about-text-3": "Our company employs professionals with extensive and extensive experience in this field, which allows us to ensure a high level of efficiency and reliability at all stages of installation.",
+  "about-text-4": "We offer comprehensive services, including:",
+  "about-li-1": "Unloading equipment",
+  "about-li-2": "Installation and assembly of equipment",
+  "about-li-3": "Commissioning",
+  "about-li-4": "Quality control at all stages according to technical documentation",
+  "about-finish": "Our goal is to meet the needs of our clients, guaranteeing quality and professionalism.",
+
+  "our-team": "Our team",
+  "our-team-title": "Meet our specialists",
+
+  "touch": "Get In Touch",
+  "query": "For Any Query",
+
+  "office": "Office Contact",
+  "adress": "Lviv region, Zolochiv district,Krasne village,",
+  "services-areas": "Services Areas",
+  "useful-pages": "Useful Pages",
+
+  "footer-1": "✓ Equipment unloading",
+  "footer-2": "✓ Equipment installation and assembly",
+  "footer-3": "✓ Commissioning",
+  "footer-4": "✓ Quality control",
+  "footer-5": "✓ Consulting services"
 }
