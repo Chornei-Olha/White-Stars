@@ -33,7 +33,7 @@
   "1": "Expert Worker",
   "2": "Наші працівники мають великий досвід та високу кваліфікацію у монтажі та введеені в експлуатацію",
   "3": "Quality Work",
-  "4": "We guarantee high quality work at all stages of cooperation"
+  "4": "We guarantee high quality work at all stages of cooperation",
 
   "about-pretitle": "Welcome to White Stars",
   "about-title": "About our company",
@@ -50,6 +50,12 @@
 
   "our-team": "Our team",
   "our-team-title": "Meet our specialists",
+
+  "5": "Our documents",
+  "6": "Documents",
+  "7": "Declaration",
+  "8": "Permission",
+  "9": "Download",
 
   "touch": "Get In Touch",
   "query": "For Any Query",
