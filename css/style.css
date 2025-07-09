@@ -256,8 +256,8 @@ a:focus {
 .carousel {
   position: relative;
   width: 100%;
-  height: calc(100vh - 170px);
-  min-height: 400px;
+  /* height: calc(100vh - 170px); */
+  min-height: 200px;
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
@@ -1204,6 +1204,8 @@ a:focus {
   font-size: 14px;
   color: #333;
   line-height: 1.4;
+  text-align: left;
+  align-items: flex-start;
 }
 
 .carousel-arrow-left,
