@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="utf-8" />
     <title>White Stars</title>
@@ -151,9 +151,44 @@
 
       <!-- Carousel Start -->
       <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/bg.webp" alt="Carousel Image" />
+            <img src="img/bg-1.jpg" alt="Carousel Image" />
+            <div class="carousel-caption">
+              <p class="animated fadeInRight" data-i18n="h1-1">Команда для</p>
+              <h1 class="animated fadeInLeft" data-i18n="h1-2">
+                Реалізації вашого проекту
+              </h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/bg-2.jpg" alt="Carousel Image" />
+            <div class="carousel-caption">
+              <p class="animated fadeInRight" data-i18n="h1-1">Команда для</p>
+              <h1 class="animated fadeInLeft" data-i18n="h1-2">
+                Реалізації вашого проекту
+              </h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/bg-3.jpg" alt="Carousel Image" />
+            <div class="carousel-caption">
+              <p class="animated fadeInRight" data-i18n="h1-1">Команда для</p>
+              <h1 class="animated fadeInLeft" data-i18n="h1-2">
+                Реалізації вашого проекту
+              </h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/bg-4.jpg" alt="Carousel Image" />
             <div class="carousel-caption">
               <p class="animated fadeInRight" data-i18n="h1-1">Команда для</p>
               <h1 class="animated fadeInLeft" data-i18n="h1-2">
@@ -162,6 +197,25 @@
             </div>
           </div>
         </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
       <!-- Carousel End -->
 
@@ -246,6 +300,10 @@
                 <p data-i18n="about-finish">
                   Наша мета – задовольнити потреби наших клієнтів, гарантуючи
                   якість та професіоналізм.
+                </p>
+                <p data-i18n="about-aftertitle">
+                  За результатами роботи в 2024 році Підприємство є учасником
+                  Клубу Білого Бізнесу.
                 </p>
               </div>
             </div>
@@ -473,66 +531,65 @@
       <!-- FAQs End -->
 
       <!-- Testimonial Start -->
-      <div class="testimonial wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="testimonial-slider-nav">
-                <div class="slider-nav">
-                  <img src="img/testimonial-1.jpg" alt="Testimonial" />
-                </div>
-                <div class="slider-nav">
-                  <img src="img/testimonial-2.jpg" alt="Testimonial" />
-                </div>
-                <div class="slider-nav">
-                  <img src="img/testimonial-3.jpg" alt="Testimonial" />
-                </div>
-                <div class="slider-nav">
-                  <img src="img/testimonial-4.jpg" alt="Testimonial" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="testimonial-slider">
-                <div class="slider-item">
-                  <h3>Андрій Коваленко</h3>
-                  <h4>приватний підприємець</h4>
-                  <p>
-                    "Замовляв послуги для розвитку свого бізнесу — результат
-                    перевершив очікування. Рекомендую!"
-                  </p>
-                </div>
-                <div class="slider-item">
-                  <h3>Олена Мельник</h3>
-                  <h4>HR-директор ТОВ "Інновація Плюс"</h4>
-                  <p>
-                    "Дуже задоволена співпрацею! Команда працює швидко, якісно і
-                    з індивідуальним підходом до кожного клієнта."
-                  </p>
-                </div>
-                <div class="slider-item">
-                  <h3>Сергій Демчук</h3>
-                  <h4>директор агенції "Глобал Тренд"</h4>
-                  <p>
-                    "Чітка робота, креативні рішення та повна відповідальність
-                    за результат. Дуже задоволені співпрацею."
-                  </p>
-                </div>
-                <div class="slider-item">
-                  <h3>Ірина Литвин</h3>
-                  <h4>маркетолог ТОВ "Артекс Груп"</h4>
-                  <p>
-                    "Професіоналізм команди вражає. Усі задачі виконані вчасно,
-                    комунікація на вищому рівні."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <section class="reviews-section">
+        <div class="reviews-header">
+          <h2>Відгуки про нас</h2>
+          <a href="#">Дивитися всі відгуки</a>
         </div>
-      </div>
+
+        <div class="carousel" id="carousel">
+          <div class="reviews-track" id="reviewsTrack">
+            <!-- Відгуки -->
+            <div class="review">
+              <div class="avatar">
+                <img src="https://via.placeholder.com/48" alt="Аватар" />
+              </div>
+              <div class="name">Єкатєріна Лужецкая</div>
+              <div class="time">1 місяць назад</div>
+              <div class="stars">★★★★★</div>
+              <div class="text">
+                Сервіс на найвищому рівні! Команда працює оперативно...
+              </div>
+            </div>
+            <div class="review">
+              <div class="avatar">
+                <img src="https://via.placeholder.com/48" alt="Аватар" />
+              </div>
+              <div class="name">Анатолій Мосійчук</div>
+              <div class="time">6 днів назад</div>
+              <div class="stars">★★★★★</div>
+              <div class="text">
+                Залишився надзвичайно задоволений співпрацею з вашою командою...
+              </div>
+            </div>
+            <div class="review">
+              <div class="avatar">
+                <img src="https://via.placeholder.com/48" alt="Аватар" />
+              </div>
+              <div class="name">Ірина Коваль</div>
+              <div class="time">2 тижні назад</div>
+              <div class="stars">★★★★★</div>
+              <div class="text">Дуже дякую за підтримку! Все супер!</div>
+            </div>
+            <div class="review">
+              <div class="avatar">
+                <img src="https://via.placeholder.com/48" alt="Аватар" />
+              </div>
+              <div class="name">Олександр Петренко</div>
+              <div class="time">3 дні назад</div>
+              <div class="stars">★★★★☆</div>
+              <div class="text">
+                Хороша платформа. Можна ще трохи покращити UX, але в загальному
+                — молодці!
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-arrow-left">←</div>
+          <div class="carousel-arrow-right">→</div>
+        </div>
+      </section>
+
       <!-- Testimonial End -->
 
       <!-- Footer Start -->

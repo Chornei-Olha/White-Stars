@@ -37,7 +37,7 @@
 
   "about-pretitle": "Welcome to White Stars",
   "about-title": "About our company",
-  "about-aftertitle": "We are in the White Business Club",
+  "about-aftertitle": "Based on the results of its work in 2024, the Enterprise is a member of the White Business Club.b",
   "about-text-1": "The company is officially recognized as a good taxpayer and is included in the White Business Club of Ukraine - a community of companies that conduct their activities transparently, honestly, and in full compliance with current legislation.",
   "about-text-2": "Our company was founded in 2018 and has extensive experience in the field of installation. We specialize in the installation of various types of equipment, including automated equipment for sorting luggage, parcels, and other similar items.",
   "about-text-3": "Our company employs professionals with extensive and extensive experience in this field, which allows us to ensure a high level of efficiency and reliability at all stages of installation.",
@@ -59,15 +59,18 @@
 
   "touch": "Get In Touch",
   "query": "For Any Query",
+  "location": "Location",
+  "phone": "Phone",
+  "send": "Send Message",
 
   "office": "Office Contact",
   "adress": "Lviv region, Zolochiv district,Krasne village,",
   "services-areas": "Services Areas",
   "useful-pages": "Useful Pages",
 
-  "footer-1": "✓ Equipment unloading",
-  "footer-2": "✓ Equipment installation and assembly",
-  "footer-3": "✓ Commissioning",
-  "footer-4": "✓ Quality control",
-  "footer-5": "✓ Consulting services"
+  "footer-1": "> Equipment unloading",
+  "footer-2": "> Equipment installation and assembly",
+  "footer-3": "> Commissioning",
+  "footer-4": "> Quality control",
+  "footer-5": "> Consulting services"
 }

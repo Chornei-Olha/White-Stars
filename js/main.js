@@ -163,3 +163,60 @@ document.querySelectorAll("[data-lang]").forEach((btn) => {
 // Init
 const savedLang = localStorage.getItem("lang") || defaultLang;
 setLanguage(savedLang);
+
+// testimonials
+const carousel = document.getElementById("carousel");
+let index = 0;
+
+const isMobile = () => window.innerWidth <= 768;
+
+function maxIndex() {
+  const reviewCount = document.querySelectorAll(".review").length;
+  const visibleCount = isMobile() ? 1 : 2;
+  return Math.max(0, reviewCount - visibleCount);
+}
+
+function updateCarousel() {
+  const slideWidth = isMobile() ? 100 : 50;
+  const track = document.getElementById("reviewsTrack");
+  track.style.transform = `translateX(-${index * slideWidth}%)`;
+}
+
+function nextSlide() {
+  index = Math.min(index + 1, maxIndex());
+  updateCarousel();
+}
+
+function prevSlide() {
+  index = Math.max(index - 1, 0);
+  updateCarousel();
+}
+
+// Swipe support
+let startX = 0;
+
+carousel.addEventListener("touchstart", (e) => {
+  startX = e.touches[0].clientX;
+});
+
+carousel.addEventListener("touchend", (e) => {
+  const endX = e.changedTouches[0].clientX;
+  const delta = startX - endX;
+
+  if (delta > 50) nextSlide();
+  else if (delta < -50) prevSlide();
+});
+
+window.addEventListener("resize", () => {
+  index = Math.min(index, maxIndex());
+  updateCarousel();
+});
+
+document
+  .querySelector(".carousel-arrow-left")
+  .addEventListener("click", prevSlide);
+document
+  .querySelector(".carousel-arrow-right")
+  .addEventListener("click", nextSlide);
+
+window.addEventListener("load", updateCarousel);
